@@ -12,7 +12,7 @@ public class rotateByLeft {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         int n = arr.length;
-        rotate(arr, n);
+        rotate(arr, n );
         for (int i : arr) {
             System.out.print(i + " ");
         }
