@@ -20,9 +20,9 @@ public class longestSequence {
 
                 ans = Math.max(cnt, ans);
             }
-        }
+        }o
         return ans;
-
+k
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
