@@ -7,6 +7,8 @@ public class mergeSort {
 
         mergeSort(arr, low, middle);
         mergeSort(arr, middle+1, high);
+
+        
         Merge(arr, low, middle, high);
     }
 
