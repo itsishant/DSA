@@ -1,31 +1,29 @@
-public class bs {
+public class Bs{
 
-    public static int Binary(int arr[], int target) {
+    public static int binarySearch(int[] arr, int target) {
         int low = 0;
         int high = arr.length - 1;
 
-        while (low <= high) {
-            int mid = (low+high)/2;
+        while (low<=high) {
+            int mid = (low + high) /2;
 
             if (arr[mid] == target) {
                 return mid;
             }
             else if (arr[mid] < target) {
-                low = mid + 1;
-            } 
+                low = mid+1;
+            }
             else {
-                high = mid - 1;
+                high = mid-1;
             }
         }
         return -1;
     }
+
     public static void main (String[] args) {
-        int arr[] = {2,4,6,8,10,12,14,16,18,20};
-
-        int target = 14;
-
-        int result = Binary(arr, target);
-
-        System.out.println("Your index is : "+ result);
-    }   
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int target = 5;
+        int result = binarySearch(arr, target);
+        System.out.println("Index of target element: " + result);
+    }
 }
