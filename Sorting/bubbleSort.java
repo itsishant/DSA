@@ -16,7 +16,7 @@ public class bubbleSort {
             } 
             if(stopSorting == 0){
                 System.out.println("Stops");
-                                break;
+                    break;
             }
         }
     }

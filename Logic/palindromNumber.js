@@ -19,8 +19,6 @@ function PalinDrome() {
 
     }
 
-
-
     if (rev == check ) {
         console.log("Number is plaindrome");
     }
