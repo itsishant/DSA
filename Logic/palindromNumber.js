@@ -12,6 +12,7 @@ function PalinDrome() {
         console.log("numebr not a palindrome");
     }
 
+    
     while (num>0) {
         lastDigit = num % 10;
         rev = lastDigit + rev*10;
